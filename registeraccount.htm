@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script id="replace_with_navbar" src="nav.js"></script>
+</head>
+
+<body>
+    <link rel="stylesheet" href="formstyle.css">
+    <div class="box">
+        <div class="main">
+            <h3>Please Login</h3>
+            <form action="register.php" method="post">
+                <input type="text" name="fname" placeholder="FirstName" required>
+                <input type="text" name="lname" placeholder="LastName" required>
+                <input type="email" name="email" placeholder="Email" required><br>
+                <input type="password" name="password" placeholder="Password" required><br>
+                <!-- <input type="password" placeholder="Confirm Password"><br> -->
+                Date of Birth:<input type="date" name="date" placeholder="Date of Birth">
+                <select name="gender" id="" required>
+                    <option value="">Enter Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="female">Female</option>
+                </select><br>
+                <select name="role" required>
+                    <option value="none"> Please Select Your Role</option>
+                    <option value="Coach">Coach</option>
+                    <option value="Player">Player</option>
+                    <option value="Parent">Parent</option>
+                    <option value="Board Member">Board Member</option>
+                    <option value="Sponsor/Partner">Sponser</option>
+                    <option value="Other">Other</option>
+                </select><br>
+                <select name="sport" required>
+                    <option value="none">Sport</option>
+                    <option value="Basketball">Basketball</option>
+                    <option value="Football">Football</option>
+                    <option value="Badminton">Badminton</option>
+                    <option value="Cricket">Cricket</option>
+                    <option value="Volleyball">Volleyball</option>
+                    <option value="Other">Other</option>
+                </select>
+                <input type="text" name="address" placeholder="Address" required>
+                <input type="submit" name="submit" value="CREATE ACCOUNT" id="" ><br>
+               <p > Already have an account?<a href="login_page.htm" >Log In</p></a>
+        </div>
+    </div>
+    </form>
+</body>
+
+</html>

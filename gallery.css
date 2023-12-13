@@ -1,0 +1,214 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+    color: hsl(0, 0%, 100%);
+}
+.banner1{
+    height: 100vh;
+    width: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+img{
+    position: absolute;
+     animation: zoom-out 3s linear infinite; 
+} 
+.text-box{
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.text-box h1{
+    margin-bottom: 40px;
+}
+.text-box p{
+    font-size: 15px;
+    line-height: 19px;
+    margin-top: 70px;
+}
+.text-box span{
+    background: red;
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+}
+.banner2,.banner3,.banner4,.banner5{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+img{
+    width: 235vh;
+    position: absolute;
+    left: 115vh;
+    top: 69vh;
+    transform: translate(-50%,-50%);
+    height: 140vh;
+}
+.text-box{
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.text-box h1{
+    margin-bottom: 40px;
+}
+.text-box p{
+    font-size: 23px;
+    line-height: 29px;
+    margin-top: 69px;
+}
+.text-box span{
+    background: red;
+    height: 3px;
+    width: 145px;
+    position: absolute;
+    left: 0;
+}
+
+.banner1{
+    animation: image1 12s linear infinite;
+}
+.banner2{
+    animation: image3b 12s linear infinite;
+}
+.banner3{
+    animation: image1c 12s linear infinite;
+}
+.banner4{
+    animation: image2bn 12s linear infinite;
+}
+.banner5{
+    animation: image3v 12s linear infinite;
+}
+@keyframes image1{
+    0%{
+        visibility: visible;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: hidden;
+    }
+    60%{
+        visibility: hidden;
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+@keyframes image3b{
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: visible;
+    }
+    60%{
+        visibility: hidden;
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes image1c{
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: hidden;
+    }
+    60%{
+        visibility: visible;
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes image2bn{
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: hidden;
+    }
+    60%{
+        visibility: hidden;
+    }
+    80%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes image3v{
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: hidden;
+    }
+    60%{
+        visibility: hidden;
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+@keyframes textup{
+    10%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.text-box1{
+    animation-delay: 0s;
+}
+.text-box2{
+    animation-delay: 3s;
+}
+.text-box3{
+    animation-delay: 6s;
+}
+.text-box4{
+    animation-delay: 9s;
+}
+.text-box5{
+    animation-delay: 12s;
+}

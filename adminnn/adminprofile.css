@@ -1,0 +1,27 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:black;
+} 
+body{
+  background-color: rgb(236, 232, 225);
+  /* background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("C:\xampp\htdocs\PROJECT\SCMS 4TH SEM\2image.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: sticky; */
+}
+
+ .tr:nth-child(even) {
+    background-color: palevioletred;
+  }
+
+  table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+  } 
+
+  img{
+    width:10vw;
+  } 

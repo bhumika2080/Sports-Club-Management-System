@@ -1,0 +1,35 @@
+*{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0; 
+    font-size: 20px;
+}
+
+.au{
+    font-weight: 800;
+    font-size: 30px;
+    color:aliceblue;
+    align-content: space-between;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(2image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* img{
+    max-width:min-content;
+    max-height:min-content;
+   
+}
+
+.aph{
+    height: 30px; 
+    width: 20px;
+   
+} */

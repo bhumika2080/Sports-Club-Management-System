@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports club management system</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <!-- <a href="index.html"><img src="logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i> -->
+        <a href="index.html"><img src="logo.png"></a>
+
+            <div class="backbutton"><i class="fa fa-arrow-circle-left" aria-hidden="true" onclick="window.history.back()" 
+                style=" font-size: 30px; color: white; cursor: pointer" ></i>
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" style="display: none;"></i>
+        
+
+        <ul>
+          <li><a class="current" href="index.html">HOME</a></li>
+          <!-- <li><a href="login-user.php">LOGIN</a></li> -->
+          <li><a href="toolbox.php">MEMBERS PROFILE</a></li>
+          <li class="product-list"><a href="newmember.php">FORM (TO ADD NEW MEMBER)</a></li>
+          <li class="product-list"><a href="newteam.php">FORM (TO JOIN NEW TEAM)</a></li>
+          <li><a href="services.php">SERVICES</a></li>
+          <li><a href="about.php">ABOUT</a></li>
+          <li><a href="contact.php">CONTACT US</a></li>
+          <li><a href="sp.php">SHOPPING</a></li>
+          <li><button type="button" class="hero-btn" style="border-radius: 900px;">
+              <a href="logout-user.php" >LOG OUT</a></button>
+          </li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>Sports Club Management System</h1>
+      <p>Sports club Management System is the process whereby records of members are directly stored <br>and can
+        be accessed by the admin interactively in<br> real-time without an intermediary service.
+      </p>
+      <a href="visit.html" class="hero-btn">Visit Us To Know More</a>
+
+
+    </div>
+
+  </section>
+
+
+
+  <!-- JavaScript for Toggle Menu -->
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+  <section class="header1">
+    <center>
+      <h1 style="color: white;">CLUB<br>IMAGES</h1>
+    </center>
+
+    <section>
+
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        section {
+          background: rgb(32, 27, 20);
+        }
+
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+      </style>
+
+      <div class="row">
+        <div class="column">
+          <img src="image.jpg" alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="image1v.png" alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="r5.png" alt="" style="width:100%">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="image2v.png" alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="image3bn.png" alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="game3.png" alt="" style="width:100%">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="r.png" alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="r2.png" alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="r3.png" alt="" style="width:100%">
+        </div>
+      </div>
+    </section>
+    <section>
+
+      <center>
+        <h1 style="color: white;">VIDEOS OF OUR SPORTS CLUB</h1>
+      </center>
+      <br><br>
+      <!-- <iframe width="420" height="345" src="https://www.youtube.com/watch?v=yQF2g-5vKkI?autoplay=1&mute=1">
+
+      </iframe> -->
+      <center><iframe width=50% height="315" src="https://www.youtube.com/embed/yQF2g-5vKkI" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <iframe width="740" height="315" src="https://www.youtube.com/embed/S3B7Bvidrjo" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe></center>
+
+        <center><iframe width=50% height="315" src="https://www.youtube.com/embed/bIJdq44YgYk" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+       encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="740" height="315" src="https://www.youtube.com/embed/Gt7Y0COa-AI" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+    </section>
+
+    <section>
+      <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
+
+        body {
+          line-height: 1.5;
+          font-family: 'Poppins', sans-serif;
+        }
+
+        * {
+          margin: 0;
+          /* padding:3px; */
+          box-sizing: border-box;
+        }
+
+        .container {
+          max-width: 100%;
+          margin: auto;
+          height: 60vh;
+        }
+
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        ul {
+          list-style: none;
+        }
+
+        /* .footer{
+          background-color: #24262b;
+          padding: 70px 0;
+        } */
+        .footer-col {
+          width: 25%;
+          padding: 0 15px;
+        }
+
+        .footer-col h4 {
+          font-size: 18px;
+          color: #ffffff;
+          text-transform: capitalize;
+          margin-bottom: 35px;
+          font-weight: 500;
+          position: relative;
+        }
+
+        .footer-col h4::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: -10px;
+          background-color: #e91e63;
+          height: 2px;
+          box-sizing: border-box;
+          width: 50px;
+        }
+
+        .footer-col ul li:not(:last-child) {
+          margin-bottom: 10px;
+        }
+
+        .footer-col ul li a {
+          font-size: 16px;
+          text-transform: capitalize;
+          color: #ffffff;
+          text-decoration: none;
+          font-weight: 300;
+          color: #bbbbbb;
+          display: block;
+          transition: all 0.3s ease;
+        }
+
+        .footer-col ul li a:hover {
+          color: #ffffff;
+          padding-left: 8px;
+        }
+
+        .footer-col .social-links a {
+          display: inline-block;
+          height: 40px;
+          width: 40px;
+          background-color: rgba(255, 255, 255, 0.2);
+          margin: 0 10px 10px 0;
+          text-align: center;
+          line-height: 40px;
+          border-radius: 50%;
+          color: #ffffff;
+          transition: all 0.5s ease;
+        }
+
+        .footer-col .social-links a:hover {
+          color: #24262b;
+          background-color: #ffffff;
+        }
+
+        /*responsive*/
+        @media(max-width: 767px) {
+          .footer-col {
+            width: 50%;
+            margin-bottom: 30px;
+          }
+        }
+
+        @media(max-width: 574px) {
+          .footer-col {
+            width: 100%;
+          }
+        }
+      </style>
+
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>SCMS</h4>
+              <ul>
+                <li><a href="visit.html">Introduction</a></li>
+                <li><a href="services.htm">our services</a></li>
+                <li><a href="toolbox.php">Virtual Club House</a></li>
+                <li><a href="gallery.html">Sport</a></li>
+                <li><a href="about.htm">about us</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="mycart.php">order status</a></li>
+                <!-- <li><a href="#">payment options</a></li> -->
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                <li><a href="sp.php">Basketball</a></li>
+                <li><a href="sp.php">Volleyball Jersey</a></li>
+                <li><a href="sp.php">football Jersey</a></li>
+                <li><a href="sp.php">Badminton</a></li>
+                <li><a href="sp.php">Cricket Jersey</a></li>
+                <li><a href="sp.php">Others</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Contact Us</h4>
+              <!-- <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div> -->
+              <ul>
+                <li><a>9845765878</a></li>
+                <li><a>project101@gmail.com</a></li>
+                <li><a>Boudha,Tusal</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    </section>
+</body>
+
+</html>

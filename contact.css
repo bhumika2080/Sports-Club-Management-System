@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("image.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 95vh;
+}
+
+div.head{
+    margin-top: 5vh;
+}
+div.head h2{
+    text-align: center;
+}
+div.head p{
+    text-align: center;
+}
+
+div.main{
+    display: flex;
+    padding-top: 10vh;
+}
+div.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+div.right{
+    display: flex;
+}
+div.a{
+    display: flex;
+    padding-left: 3vh;
+    padding-top: 5vh;
+}
+div.a .icon{
+    /* color: blue; */
+    font-size: 25px;
+    padding-top: 1.5vh;
+}
+div.a p{
+    font-size: 25px;
+    /* color: blue; */
+
+
+}
+div.a span{
+    /* color: rgb(16, 214, 16); */
+    font-size: 20px;
+
+
+}
+div.con{
+    padding-left: 3vh;
+}
+
+div.frm{
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input,form textarea{
+    margin: 2vh 3vh;
+    height: 7vh;
+    width: 35vw;
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+}
+input::placeholder,textarea::placeholder{
+    color: white;
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+div.frm p{
+    /* color: rgb(16, 214, 16); */
+    font-size: 30px;
+    text-align: center;
+    padding-top: 3vh;
+    font-weight: 900;
+}
+#sub{
+    margin-left: 3vh;
+    margin-bottom: 3vh;
+    padding: 1.5vh;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    background: none;
+    cursor: pointer;
+    width: 20vh;
+}
+
+#sub:hover{
+    background-color: aquamarine;
+    border: 2px solid aquamarine;
+    color: black;
+}
+
+/* #msg{
+    color: black;
+} */

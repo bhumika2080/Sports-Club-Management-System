@@ -1,0 +1,153 @@
+    <!-- <?php
+    include("navbar.php");
+    ?> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What we do</title>
+    
+
+    <style>
+        * {
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            color: rgb(224, 229, 234);
+
+        }
+
+        body{
+            min-height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(8image.jpg);
+            background-position: center;
+            background-size: cover;
+            position: sticky;
+             }
+
+
+        .h1, h2, h3 {
+            color: rgb(22, 222, 232);
+        }
+
+        @keyframes shine {
+            0% {
+                transform: translateX(-30px) rotate(-25deg);
+            }
+
+            100% {
+                transform: translateX(250px) rotate(-25deg);
+            }
+        }
+
+        .shine {
+            margin: 0.5rem;
+            background: #1693A5;
+            color: #FFFFFF;
+            padding: 0.25rem 0.75rem;
+            /* width: 250px; */
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 5px;
+            position: relative;
+            overflow: hidden;
+            transition: all 100ms linear;
+        }
+
+        .shine:hover {
+            transform: scale(1.05) rotate(-2.5deg);
+        }
+
+        .shine:hover::after {
+            content: '';
+            display: block;
+            width: 75px;
+            height: 175%;
+            background: rgb(255, 255, 255);
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 0) 100%);
+            opacity: 0.5;
+            position: absolute;
+            top: -20px;
+            left: 0;
+            animation: shine 200ms linear;
+            transform: translateX(250px) rotate(-25deg);
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Navigation bar-->
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("navbar.html", function (data) {
+            $("#navLinks").replaceWith(data);
+        });
+    </script>
+    
+    <!--end of Navigation bar-->
+
+    <div class="banner1">
+
+        <h1 style="text-align: center; color: aqua;">SPORT CLUB MANAGEMENT SYSTEM</h1>
+        <span></span>
+
+    </div>
+    <div class="banner2">
+        <div class="text-box">
+            <h2>Introduction</h2>
+            <p> In sports we
+                learn to relate ourselves with other people who have similar interest and a common goal to
+                achieve. It does not matter the sport, whether it is an individual or a team sport, there are always
+                people around us that get directly or indirectly to make it possible.
+                Despite the most visual part of the sports, there are also things that are not as easily seen and
+                require a huge amount of work. The bigger the club is the more increases the effort required for
+                this task, and having the data organized and accessible is fundamental.</p>
+            <h3>Purpose of the Sport Club Program </h3>
+            <p>The Sport Club program at Xavier International College offers the community an opportunity to participate
+                in a
+                broad variety of sports and recreational activities. All programs are based on members' interest and
+                designed to enhance the experience by creating an environment where students can unite in
+                diverse groups to achieve common goals and objectives while encouraging healthy lifestyles. Sport
+                Clubs provide a valuable learning experience through student involvement in fundraising, public
+                relations, organization, administration, budgeting, scheduling, teaching, and leadership development.
+                The clubs with the most success and stability are those with active members and dedicated officers</p>
+            <h3><button class="shine"><a href="gallery.html"> Picture Descriptions</a></button></h3>
+            Please click on 'Picture Descriptions' to see more on the sports we manage.
+            <h3>Role of Board Members and Directors</h3>
+            <p>The admin and board members serves primarily as an advisor and resource person for SportClub leaders and
+                is available to assist student representatives with club business. It is the board members'/ admin's
+                responsibility to monitor club activities to ensure all procedures are being followed. They shall
+                recommend decisions to the Sport Club Council on
+                items not specifically covered in this manual.
+            </p>
+
+            <h3>Responsibilities of Club</h3>
+            <ul>Makes almost all preceedings automated.
+            </ul>
+            <ul>Conducts matches with teams of other clubs at least once a month.
+            </ul>
+            <ul>Assist the players to make connections with sponsors.
+            </ul>
+            <ul>Recommend revisions of the Sport Club Manual and procedures for the following year.
+            </ul>
+            <ul>Review and approve people seeking new admittance and/or reinstatement into the program.
+            </ul>
+            <ul>Arranges events where members as well as non-members can attend.
+            </ul>
+            <ul>All recommendations and/or actions are subject to approval or rejection by the Admins or Board Members.
+            </ul>
+        </div>
+        <h4> Please <button class="shine"><a href="contact.php">contact us</a> </button>to know more or if you have
+            any queries.</h4>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;   
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+}
+
+body{
+    /* text-align: center; */
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(8image.jpg);
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+}
+
+
+.baki{
+    float: right;
+    padding-right: 350px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.sponsors img{
+    height: 20vh;
+    width: 30vh;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 25vh; 
+}
+
+.baki ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin: 10vh; */
+    list-style: none;
+}
+
+.cal{
+    /* padding: 20px; */
+    float: left;   
+}
+
+.sponsors{
+color: aqua;
+float: left;
+/* padding: 90px; */
+}
+
+
+
+       
